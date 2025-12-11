@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART FAKTOR j.d.o.o.</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            background-color: #f4f2ec;
+            color: #3a3a3a;
+        }
+
+        /* RIGHT OFFSET FOR ALL SECTIONS */
+        section {
+            height: 100vh;
+            padding: 80px;
+            padding-right: 300px; /* <<–– чтобы текст не заходил под меню */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1, h2, h3, p {
+            font-size: 2rem;
+            line-height: 1.4;
+        }
+        h1 { font-size: 4rem; }
+        h2 { font-size: 3rem; margin-bottom: 20px; }
+        p, li { font-size: 1.8rem; }
+        ul { list-style: none; padding: 0; }
+
+        /* NAVIGATION */
+        nav {
+            position: fixed;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 220px;
+            background: #e8e3d4;
+            display: flex;
+            flex-direction: column;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            border-left: 3px solid #c2bda8;
+            z-index: 1000;
+        }
+        nav a {
+            margin: 20px 0;
+            color: #3a3a3a;
+            text-decoration: none;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #6a8250;
+        }
+
+        /* CONTACT BLOCK */
+        .contact-block {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact-block img {
+            width: 42%;
+            height: auto;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #dcd7c8;
+            padding: 40px;
+            text-align: center;
+        }
+        footer p {
+            font-size: 1.6rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="#home">Naslovnica</a>
+    <a href="#about">O nama</a>
+    <a href="#services">Usluge</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<!-- 1. HERO SECTION -->
+<section id="home" style="background:#f6f4ee;">
+    <h1>ART FAKTOR j.d.o.o.</h1>
+    <h2>Vaš partner za održiv rast i pametne poslovne odluke</h2>
+    <p>Specijalizirani smo za poslovno i marketinško savjetovanje, podatkovnu analitiku te razvoj snažnih brend identiteta. 
+       Pomažemo tvrtkama da jasnije razumiju svoje tržište, unaprijede komunikaciju i stvore prepoznatljiv, organski identitet koji privlači.</p>
+</section>
+
+<!-- 2. ABOUT US -->
+<section id="about" style="background:#efece2;">
+    <h2>Priča koja oblikuje naš pristup</h2>
+    <p>ART FAKTOR j.d.o.o. nastao je iz ideje da se poduzećima ponudi održiv i personaliziran pristup savjetovanju. 
+       Naš tim spaja analitičku preciznost s kreativnim razmišljanjem kako bismo izgradili strategije koje odražavaju autentičnost svakog klijenta. 
+       Fokusirani smo na razumijevanje vaše industrije, kupaca i dugoročnih ciljeva. 
+       Vjerujemo da svaki brend može rasti organski kada se temelji na jasnim podacima i smislenoj komunikaciji. 
+       Zato stvaramo rješenja koja nisu generička već u potpunosti prilagođena vašim potrebama.</p>
+</section>
+
+<!-- 3. SERVICES -->
+<section id="services" style="background:#f6f4ee;">
+    <h2>Što radimo – stvaramo temelje za uspjeh</h2>
+    <ul>
+        <li>
+            <h3>Poslovno i marketinško savjetovanje</h3>
+            <p>Analiziramo vaše tržište, konkurenciju i interne procese kako bismo izgradili jasnu strategiju rasta. 
+               Naš tim razvija održive marketinške i poslovne modele prilagođene vašim ciljevima.</p>
+        </li>
+        <li>
+            <h3>Data Consulting</h3>
+            <p>Pomažemo vam razumjeti i iskoristiti podatke za donošenje ključnih odluka. 
+               Kroz analitiku i interpretaciju podataka stvaramo uvide koji ubrzavaju poslovni razvoj.</p>
+        </li>
+        <li>
+            <h3>Branding i dizajn</h3>
+            <p>Gradimo vizualne identitete koji osnažuju percepciju brenda. 
+               Dizajn pristupamo prirodno i estetski, naglašavajući autentičnost i prepoznatljivost.</p>
+        </li>
+    </ul>
+</section>
+
+<!-- 4. BENEFITS -->
+<section id="benefits" style="background:#efece2;">
+    <h2>Zašto klijenti biraju nas</h2>
+    <ul>
+        <li>
+            <h3>Personalizirani pristup</h3>
+            <p>Svaka strategija izrađuje se posebno za vaš brend — bez predložaka, bez generičkih rješenja.</p>
+        </li>
+        <li>
+            <h3>Organska filozofija rasta</h3>
+            <p>Usredotočeni smo na dugoročne rezultate, prirodan razvoj brenda i autentičnu komunikaciju.</p>
+        </li>
+        <li>
+            <h3>Balans analitike i kreativnosti</h3>
+            <p>Savršeno spajamo podatke, dizajn i strategiju kako bismo kreirali cjelovita rješenja.</p>
+        </li>
+    </ul>
+</section>
+
+<!-- 5. PROCESS -->
+<section id="process" style="background:#f6f4ee;">
+    <h2>Kako radimo – jednostavno i jasno</h2>
+    <ul>
+        <li>
+            <h3>1. Analiza i istraživanje</h3>
+            <p>Dublje razumijemo vaše potrebe, tržište i konkurenciju kako bismo postavili temelje.</p>
+        </li>
+        <li>
+            <h3>2. Razvoj strategije</h3>
+            <p>Kreiramo prilagođene planove koji objedinjuju podatke, komunikaciju i brendiranje.</p>
+        </li>
+        <li>
+            <h3>3. Implementacija i podrška</h3>
+            <p>Vodimo vas kroz provedbu i pružamo kontinuiranu podršku kako bi rezultati bili mjerljivi i održivi.</p>
+        </li>
+    </ul>
+</section>
+
+<!-- 6. CONTACT -->
+<section id="contact" style="background:#efece2;">
+    <h2>Budi slobodan kontaktirati nas</h2>
+    <div class="contact-block">
+        <div>
+            <p>Za sve upite i suradnje, slobodno nam se javite putem e-pošte.  
+               Rado ćemo odgovoriti na svako pitanje i pomoći vam napraviti sljedeći korak prema snažnijem brendu i boljoj poslovnoj strukturi.  
+               Vaša ideja može postati nešto veliko — dopustite da vas pratimo na tom putu.</p>
+
+            <p><strong>E-pošta:</strong> support@artfaktor.org<br>
+               <strong>Adresa:</strong> Varazdinska ulica 1b, 42000 Gornji Kucan</p>
+        </div>
+
+        <img src="https://media.istockphoto.com/id/2209261187/photo/portrait-of-coworkers-at-the-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=bTcBjF60uui3YgqUUCvqsITRhGuBfk1owaXMVXhbqvE=" alt="Team Photo">
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 ART FAKTOR j.d.o.o. — Sva prava pridržana.</p>
+</footer>
+
+</body>
+</html>
